@@ -1,5 +1,4 @@
 from fastapi import FastAPI 
-from Controllers.ProductosController import rutas_producto
 
 sena = FastAPI()
 
@@ -9,4 +8,4 @@ def inicio():
     return "La app esta en Linea"
 
 
-sena.include_router(rutas_producto)
+
